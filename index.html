@@ -11,7 +11,7 @@
     <meta name="keywords" content="adoção de animais, missão 4 patas, cachorros, gatos, resgate de animais, ong, pets" />
     <meta name="author" content="Missão 4 Patas" />
 
-    <!-- Open Graph (pra Facebook, WhatsApp, etc) -->
+    <!-- Open Graph -->
     <meta property="og:title" content="Missão 4 Patas" />
     <meta property="og:description" content="Doe amor. Salve vidas. Adote um pet com a Missão 4 Patas." />
     <meta property="og:image" content="https://missao4patas.vercel.app/doguinho7.jpg" />
@@ -26,7 +26,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
 
-    <!-- Google Analytics (FINAL CORRETO) -->
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-V41RC99VD9"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -34,6 +34,25 @@
       gtag('js', new Date());
       gtag('config', 'G-V41RC99VD9');
     </script>
+
+    <!-- Facebook Pixel -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1824100711497389');
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+      <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1824100711497389&ev=PageView&noscript=1"/>
+    </noscript>
+
   </head>
   <body>
     <div id="root"></div>
