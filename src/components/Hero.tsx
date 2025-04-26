@@ -2,23 +2,21 @@ import React from 'react';
 import { FakeDonationStream } from './FakeDonationStream';
 import DonationGoalCounter from './DonationGoalCounter';
 import SavedLivesCounter from './SavedLivesCounter';
+import TimedPopup from './TimedPopup';
 import heroBg from '../assets/hero-bg.jpg';
 
 export default function Hero() {
   return (
     <section className="relative h-screen w-full overflow-hidden text-white flex items-center justify-center px-6 z-10">
       
-      {/* IMAGEM DE FUNDO */}
       <img
         src={heroBg}
         alt="Cão resgatado"
         className="absolute inset-0 w-full h-full object-cover z-0"
       />
 
-      {/* PELÍCULA ESCURECIDA */}
       <div className="absolute inset-0 bg-black bg-opacity-40 z-0" />
 
-      {/* PATINHAS FLUTUANTES */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
         {Array.from({ length: 20 }).map((_, i) => (
           <div
@@ -36,7 +34,6 @@ export default function Hero() {
         ))}
       </div>
 
-      {/* CONTEÚDO CENTRAL */}
       <div className="relative z-10 text-center w-full h-full flex flex-col items-center justify-center px-6">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight drop-shadow-lg">
           Doe amor. <br /> Salve vidas.
@@ -48,7 +45,7 @@ export default function Hero() {
 
         <div className="mt-6">
           <a
-            href="https://buy.stripe.com/test_00g3dQbCP8Vi8PSeV0"
+            href="https://buy.stripe.com/cN29AEgPf1puaxG28c"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -62,8 +59,8 @@ export default function Hero() {
         <p className="text-sm text-orange-300 mt-2">+20 doações registradas nas últimas 24h</p>
         <SavedLivesCounter />
 
-        {/* NOTIFICAÇÃO DE DOAÇÃO FALSA */}
         <FakeDonationStream />
+        <TimedPopup />
       </div>
     </section>
   );

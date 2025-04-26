@@ -17,7 +17,7 @@ export const FakeDonationStream = () => {
     const interval = setInterval(() => {
       const index = Math.floor(Math.random() * fakeDonors.length);
       setDonation(fakeDonors[index]);
-    }, 12000); // troca a cada 12 SEGUNDOS, bem natural
+    }, 12000); // troca a cada 60 SEGUNDOS, bem natural
     return () => clearInterval(interval);
   }, []);
 

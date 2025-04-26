@@ -1,0 +1,14 @@
+import { useEffect } from 'react';
+import { io } from 'socket.io-client';
+
+const socket = io('http://localhost:3000'); // URL do backend com Socket.IO
+
+export default function useDonationSocket(onDonation: (data: any) => void) {
+  useEffect(() => {
+    socket.on('novaDoacao', onDonation);
+
+    return () => {
+      socket.off('novaDoacao', onDonation);
+    };
+  }, [onDonation]);
+}

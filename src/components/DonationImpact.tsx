@@ -14,7 +14,7 @@ const DonationImpact = () => {
             <div className="text-orange-600 text-3xl mb-2">R$ 10</div>
             <p className="text-gray-700 mb-4">1kg de ração para um animal resgatado</p>
             <a
-              href="https://buy.stripe.com/test_5kA15I7mz3AY6HKeUU"
+              href="https://buy.stripe.com/dR6cMQ0Qh4BGaxG3cc"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -29,7 +29,7 @@ const DonationImpact = () => {
             <div className="text-orange-600 text-3xl mb-2">R$ 50</div>
             <p className="text-gray-700 mb-4">Vacinas completas para um animal</p>
             <a
-              href="https://buy.stripe.com/test_eVaaGigX94F21nq3ce"
+              href="https://buy.stripe.com/bIY148dD3b04eNW5kn"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -44,7 +44,7 @@ const DonationImpact = () => {
             <div className="text-orange-600 text-3xl mb-2">R$ 100</div>
             <p className="text-gray-700 mb-4">Tratamento médico completo</p>
             <a
-              href="https://buy.stripe.com/test_9AQbKm5er0oMeacfZ1"
+              href="https://buy.stripe.com/28ofZ29mNfgk0X6cMO"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -59,7 +59,7 @@ const DonationImpact = () => {
             <div className="text-orange-600 text-3xl mb-2">R$ 200</div>
             <p className="text-gray-700 mb-4">Resgate completo e primeiros cuidados</p>
             <a
-              href="https://buy.stripe.com/test_bIY9CeayL9Zm3vy9AE"
+              href="https://buy.stripe.com/cN200442td8ceNWfYZ"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -73,7 +73,7 @@ const DonationImpact = () => {
         {/* Botão geral de R$5 */}
         <div className="mt-10">
           <a
-            href="https://buy.stripe.com/test_00g3dQbCP8Vi8PSeV0"
+            href="https://buy.stripe.com/cN29AEgPf1puaxG28c"
             target="_blank"
             rel="noopener noreferrer"
           >
